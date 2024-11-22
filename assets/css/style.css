@@ -51,7 +51,7 @@ footer img{
   width: 300px;
 }
 .Landing {
- padding: 60px 0 50px 0;
+ padding: 60px 0 10px 0;
 }
 .slider {
   position: relative;
@@ -141,6 +141,12 @@ footer img{
   background-color: #f28f5d;
 }
 
+
+.soonIMG img{
+  width: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 1440px) {
   .Landing {
     margin-top: 4%;
@@ -191,19 +197,22 @@ footer img{
 
 /* Form */
 .entry__field{
-  background:none !important;
+  /* background:none !important; */
 }
 .entry__field input{
-  border: 1px solid #f28f5d !important;
+  /* border: 1px solid #f28f5d !important; */
   box-shadow: none !important;
+ 
 }
 .sib-form .entry__field {
   border: none !important;
   box-shadow: none !important;
+  border-radius: 10px !important;
 }
 .entry__field input::placeholder{
-  color: #fff !important;
+  color: #9f9f9f !important;
+  padding-left: 10px;
 }
 .input{
-  color: #fff !important;
+  color: #9f9f9f  !important;
 }
