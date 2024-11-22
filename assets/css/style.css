@@ -170,6 +170,9 @@ footer img{
   font-size: 22px;
   max-width: 80%;
 }
+.secondText span{
+  color: #f28f5d;
+}
 .secondText img{
 position: absolute;
 right: 30px;
