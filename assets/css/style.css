@@ -28,13 +28,12 @@ ul {
   padding: 0;
 }
 body {
-  background-image: url(../images/Home_Page_-_Soon_Landing_Page[1].jpg);
+  background-image: url(../images/BG.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   /* height: 100vh; */
-  overflow: hidden;
 }
 @media (max-width: 1366px) {
   .container {
@@ -42,7 +41,7 @@ body {
   }
 }
 .Landing {
-  margin-top: 3%;
+ padding: 60px 0 50px 0;
 }
 .slider {
   position: relative;
@@ -175,4 +174,26 @@ body {
   body {
     height: 100vh;
   }
+}
+
+
+
+
+/* Form */
+.entry__field{
+  background:none !important;
+}
+.entry__field input{
+  border: 1px solid #f28f5d !important;
+  box-shadow: none !important;
+}
+.sib-form .entry__field {
+  border: none !important;
+  box-shadow: none !important;
+}
+.entry__field input::placeholder{
+  color: #fff !important;
+}
+.input{
+  color: #fff !important;
 }
