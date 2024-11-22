@@ -66,7 +66,7 @@ footer img{
   position: relative;
   width: 100%;
   overflow: hidden;
-  border-radius: 13px 0 0 13px;
+  border-radius: 13px;
   height: 500px;
 }
 .landing-video video {
@@ -77,6 +77,12 @@ footer img{
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+}
+.landing-Img img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 13px 0 0 13px ;
 }
 .landing-text {
   padding: 40px 20px 40px 20px;
@@ -147,6 +153,30 @@ footer img{
   object-fit: cover;
 }
 
+.secondText{
+  height: 500px;
+  padding: 70px 30px 20px 30px;
+  position: relative;
+}
+.secondText h1{
+  color: #f28f5d;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.secondText p{
+  color: #fff;
+  font-size: 22px;
+  max-width: 80%;
+}
+.secondText img{
+position: absolute;
+right: 30px;
+bottom: 30px;
+height: 350px;
+}
+
 @media (max-width: 1440px) {
   .Landing {
     margin-top: 4%;
@@ -164,7 +194,7 @@ footer img{
 }
 @media (max-width: 991px) {
   .landing-video {
-    height: 300px;
+    height: 600px;
   }
   .landing-text {
     display: flex;
