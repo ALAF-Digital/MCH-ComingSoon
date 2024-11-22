@@ -211,6 +211,7 @@ height: 350px;
     margin: 0%;
     padding: 10px 10px 10px 10px;
     font-size: 18px;
+    max-width: 100%;
   }
   .landing-text h2 {
     margin: 0% !important;
