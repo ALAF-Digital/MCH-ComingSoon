@@ -223,6 +223,12 @@ height: 350px;
   body {
     height: auto;
   }
+  .secondText img {
+    display: none;
+  }
+  .secondText p {
+    max-width: 100%;
+  }
 }
 
 
