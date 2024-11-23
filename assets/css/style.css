@@ -51,7 +51,7 @@ footer img{
   width: 300px;
 }
 .Landing {
- padding: 60px 0 10px 0;
+ padding: 60px 0 60px 0;
 }
 .slider {
   position: relative;
@@ -182,9 +182,9 @@ height: 350px;
 }
 
 @media (max-width: 1440px) {
-  .Landing {
+  /* .Landing {
     margin-top: 4%;
-  }
+  } */
   .landing-text h2 {
     font-size: 35px;
   }
