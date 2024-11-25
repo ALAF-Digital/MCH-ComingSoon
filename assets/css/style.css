@@ -13,6 +13,7 @@ h6,
 p,
 figure {
   margin: 0;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 p {
   font-size: 16px;
@@ -39,7 +40,7 @@ body {
 }
 @media (min-width: 1366px) {
   .container {
-    max-width: 1050px;
+    max-width: 1000px;
   }
 }
 @media (max-width: 1366px) {
@@ -73,7 +74,7 @@ footer img{
   position: relative;
   width: 100%;
   overflow: hidden;
-  border-radius: 13px;
+  border-radius: 40px;
   height: 500px;
 }
 .landing-video video {
@@ -89,11 +90,19 @@ footer img{
   height: 500px;
   width: 100%;
   object-fit: cover;
-  border-radius: 13px 0 0 13px ;
+  border-radius: 40px 0 0 40px ;
 }
 .landing-text {
-  padding: 70px 20px 40px 8px;
+  padding: 80px 30px 20px 18px;
   font-family: "Baloo Bhaijaan 2", sans-serif;
+  background-color: rgb(16, 16, 16, 0.7);
+  border-radius: 0px 40px 40px 0 ;
+}
+.landing-card .col-lg-7{
+  padding-right: 0;
+}
+.landing-card .col-lg-5{
+ padding-left: 0;
 }
 .landing-text h1 {
   background-color: #f28f5d;
@@ -115,8 +124,9 @@ footer img{
 }
 .landing-text h2 {
   color: #f28f5d;
-  font-size: 42px;
+  font-size: 40px;
   text-transform: capitalize;
+  font-weight: 500;
 }
 .landing-text p {
   color: #fff;
@@ -156,6 +166,7 @@ footer img{
   right: 75px;
   height: 50px;
   background-color: #f28f5d;
+  z-index: 1;
 }
 
 
@@ -167,19 +178,21 @@ footer img{
 .secondText{
   height: 500px;
   padding: 70px 30px 20px 30px;
+  background-color: rgb(44, 44, 44, 0.7);
+  border-radius: 40px;
   position: relative;
 }
 .secondText h1{
   color: #f28f5d;
   text-align: center;
   font-weight: 700;
-  font-size: 35px;
-  margin-bottom: 30px;
+  font-size: 65px;
+  margin-bottom: 50px;
 }
 .secondText p{
   color: #fff;
   font-size: 22px;
-  max-width: 80%;
+  max-width: 70%;
 }
 .secondText span{
   color: #f28f5d;
@@ -188,19 +201,22 @@ footer img{
 position: absolute;
 right: 30px;
 bottom: 30px;
-height: 350px;
+height: 260px;
 }
 
 @media (max-width: 1440px) {
   /* .Landing {
     margin-top: 4%;
   } */
+   .landing-text {
+    height: 500px;
+   }
   .landing-text h2 {
     font-size: 35px;
   }
   .landing-text h1 {
-    margin-left: 120px;
-    font-size: 21px;
+    /* margin-left: 120px; */
+    /* font-size: 21px; */
   }
   .landing-text p {
     font-size: 16px;
@@ -216,6 +232,7 @@ height: 350px;
     gap: 20px;
     align-items: center;
     text-align: center;
+    height: auto;
   }
   .landing-text h1 {
     margin: 0%;
@@ -246,7 +263,10 @@ height: 350px;
     width: 270px;
   }
   .landing-Img img {
-    border-radius: 13px 13px 0 0;
+    border-radius: 40px 40px 0px 0px;
+  }
+  .landing-card .col-lg-7{
+    padding-right: 12px;
   }
   .secondText {
     height: auto;
