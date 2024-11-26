@@ -49,7 +49,7 @@ body {
   }
 } */
 header img {
-  width: 500px;
+  width: 300px;
 }
 footer {
   text-align: center;
@@ -225,8 +225,8 @@ footer img {
 .secondText img {
   position: absolute;
   right: 30px;
-  bottom: 40px;
-  height: 460px;
+  bottom: 60px;
+  height: 410px;
 }
 .slider .myswiper1 {
   margin: 0 -40rem;
@@ -258,6 +258,7 @@ footer img {
   opacity: 0.1 !important;
   transform: scale(0.7) rotateY(0deg) translateZ(-50px) !important;
   z-index: 5 !important;
+  filter: blur(5px);
 }
 
 .swiper-slide:not(.swiper-slide-active):not(.swiper-slide-next):not(
