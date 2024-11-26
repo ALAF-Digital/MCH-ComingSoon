@@ -322,9 +322,9 @@ footer img {
   }
 }
 @media (max-width: 991px) {
-  .landing-video {
+  /* .landing-video {
     height: 600px;
-  }
+  } */
   .landing-text {
     display: flex;
     flex-direction: column;
@@ -377,6 +377,21 @@ footer img {
   }
   .slider .myswiper1 {
     margin: 0 0rem;
+  }
+  .secondText h1 {
+    font-size: 38px;
+  }
+  .secondText p {
+    font-size: 20px;
+  }
+  .landing-Img img {
+    height: 400px;
+  }
+  .landing-text h2 {
+    font-size: 30px;
+  }
+  .landing-text p {
+    font-size: 20px;
   }
 }
 
