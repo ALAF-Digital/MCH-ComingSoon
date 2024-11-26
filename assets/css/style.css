@@ -71,13 +71,15 @@ footer img {
   border: 2px solid #f28f5d;
   border-radius: 40px;
   position: relative;
+  aspect-ratio: 16 / 9; 
 }
 .landing-video {
   position: relative;
   width: 100%;
   overflow: hidden;
-  border-radius: 40px;
-  height: 600px;
+  border-radius: 38px;
+  /* height: 600px; */
+  aspect-ratio: 16 / 9; 
 }
 .landing-video video {
   position: absolute;
@@ -91,7 +93,8 @@ footer img {
   object-fit: cover;
 }
 .landing-Img img {
-  height: 600px;
+  height: 750px;
+  /* aspect-ratio: 16 / 9;  */
   width: 100%;
   object-fit: cover;
   border-radius: 40px 0 0 40px;
@@ -101,7 +104,7 @@ footer img {
   font-family: "Baloo Bhaijaan 2", sans-serif;
   background-color: rgb(16, 16, 16, 0.7);
   border-radius: 0px 40px 40px 0;
-  height: 600px;
+  height: 750px;
 }
 .landing-card .col-lg-7 {
   padding-right: 0;
@@ -119,7 +122,7 @@ footer img {
   /* margin-right: 100px; */
   margin-bottom: 30px;
   color: #3a3a3a;
-  font-size: 30px;
+  font-size: 34px;
   text-transform: uppercase;
   border-radius: 14px;
   font-weight: 400;
@@ -129,13 +132,13 @@ footer img {
 }
 .landing-text h2 {
   color: #f28f5d;
-  font-size: 42px;
+  font-size: 45px;
   text-transform: capitalize;
   font-weight: 500;
 }
 .landing-text p {
   color: #fff;
-  font-size: 27px;
+  font-size: 32px;
 }
 .landing-text span.dot {
   font-size: 20px;
@@ -168,6 +171,7 @@ footer img {
   right: 60px;
   height: 70px;
   background-color: #f28f5d;
+  border-radius: 0 0px 2px 2px;
 }
 .landing-card::before {
   content: "";
@@ -178,6 +182,7 @@ footer img {
   height: 50px;
   background-color: #f28f5d;
   z-index: 1;
+  border-radius: 0 0px 2px 2px;
 }
 .landing-video1::before,
 .landing-video1::after {
@@ -195,8 +200,9 @@ footer img {
 }
 
 .secondText {
-  height: 600px;
-  padding: 70px 30px 20px 30px;
+  /* height: 600px; */
+  aspect-ratio: 16 / 9; 
+  padding: 70px 30px 10px 30px;
   background-color: rgb(44, 44, 44, 0.7);
   border-radius: 40px;
   position: relative;
@@ -205,12 +211,12 @@ footer img {
   color: #f28f5d;
   text-align: center;
   font-weight: 700;
-  font-size: 68px;
+  font-size: 70px;
   margin-bottom: 50px;
 }
 .secondText p {
   color: #fff;
-  font-size: 34px;
+  font-size: 40px;
   max-width: 80%;
 }
 .secondText span {
@@ -219,8 +225,8 @@ footer img {
 .secondText img {
   position: absolute;
   right: 30px;
-  bottom: 30px;
-  height: 350px;
+  bottom: 40px;
+  height: 460px;
 }
 .slider .myswiper1 {
   margin: 0 -40rem;
@@ -238,7 +244,7 @@ footer img {
   opacity: 1 !important;
   transform: scale(1) rotateY(0deg) translateZ(0) !important;
   z-index: 10 !important;
-  aspect-ratio: 16 / 9; 
+  
 }
 
 .swiper-slide-next {
@@ -285,13 +291,17 @@ footer img {
     color: #f28f5d;
     text-align: center;
     font-weight: 700;
-    font-size: 65px;
+    /* font-size: 65px; */
     margin-bottom: 50px;
   }
   .secondText p {
     color: #fff;
-    font-size: 30px;
-    max-width: 80%;
+    font-size: 35px;
+    max-width: 75%;
+  }
+  .secondText img {
+    height: 430px;
+    /* width: 20%; */
   }
   /* .Landing {
     margin-top: 4%;
@@ -300,14 +310,14 @@ footer img {
     height: 500px;
   } */
   .landing-text h2 {
-    font-size: 38px;
+    /* font-size: 38px; */
   }
   .landing-text h1 {
     margin-left: 70px;
     /* font-size: 21px; */
   }
   .landing-text p {
-    font-size: 22px;
+    font-size: 28px;
   }
 }
 @media (max-width: 991px) {
