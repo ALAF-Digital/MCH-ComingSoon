@@ -145,7 +145,10 @@ footer img {
   color: #fff;
 }
 
-
+.landing-text .media{
+  color: #f28f5d;
+  font-weight: normal;
+}
 
 .swiper-button-prev,
 .swiper-button-next {
