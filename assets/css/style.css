@@ -88,7 +88,7 @@ footer img {
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  z-index: -1;
+  z-index: 1;
   height: 300px;
   object-fit: cover;
 }
@@ -388,7 +388,7 @@ footer img {
     font-size: 20px;
   }
   .landing-Img img {
-    height: 400px;
+    height: 450px;
   }
   .landing-text h2 {
     font-size: 30px;
@@ -396,8 +396,42 @@ footer img {
   .landing-text p {
     font-size: 20px;
   }
+  .landing-video video {
+    height: 180px;
+  }
 }
-
+/* 
+@media (max-width:768px) {
+  .swiper-slide {
+    position: unset;
+    transition: unset !important;
+    opacity: unset !important;
+    transform: unset !important;
+  }
+  
+  .swiper-slide-active {
+    opacity: unset !important;
+    transform: unset !important;
+    z-index: unset !important;
+    
+  }
+  
+ 
+  .swiper-slide-next,
+  .swiper-slide-prev {
+    opacity: unset !important;
+    transform: unset !important;
+    z-index: unset !important;
+    filter: unset !important;
+  }
+  
+  .swiper-slide:not(.swiper-slide-active):not(.swiper-slide-next):not(
+      .swiper-slide-prev
+    ) {
+    opacity: unset !important;
+    transform: unset !important;
+  }
+} */
 /* Form */
 .entry__field {
   /* background:none !important; */
