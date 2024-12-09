@@ -400,12 +400,12 @@ footer img {
     height: 180px;
   }
 }
-/* 
+
 @media (max-width:768px) {
   .swiper-slide {
     position: unset;
     transition: unset !important;
-    opacity: unset !important;
+    opacity: unset!important;
     transform: unset !important;
   }
   
@@ -416,22 +416,27 @@ footer img {
     
   }
   
- 
+  /* .swiper-slide-next {
+    left: 0rem;
+  }
+  .swiper-slide-prev {
+    right: 0rem;
+  } */
   .swiper-slide-next,
   .swiper-slide-prev {
     opacity: unset !important;
     transform: unset !important;
     z-index: unset !important;
-    filter: unset !important;
+    filter: unset;
   }
   
   .swiper-slide:not(.swiper-slide-active):not(.swiper-slide-next):not(
       .swiper-slide-prev
     ) {
     opacity: unset !important;
-    transform: unset !important;
   }
-} */
+    
+}
 /* Form */
 .entry__field {
   /* background:none !important; */
