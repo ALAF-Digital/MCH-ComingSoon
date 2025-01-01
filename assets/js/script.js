@@ -31,4 +31,13 @@ document.querySelectorAll('.swiper-slide-active .aspect-ratio-wrapper').forEach(
     const width = wrapper.offsetWidth; // Get current width of the active slide
     wrapper.style.height = `${width * (9 / 16)}px`; // Set height to maintain 16:9
   });
+
+  //Modal//
+  document.addEventListener("DOMContentLoaded", function () {
+    var myModal = new bootstrap.Modal(document.getElementById('detailspopup'), {
+      backdrop: 'static', // Optional: prevents closing by clicking outside the modal
+      keyboard: false     // Optional: prevents closing with the Escape key
+    });
+    myModal.show();
+  });
   

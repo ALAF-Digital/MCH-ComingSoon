@@ -463,3 +463,31 @@ footer img {
 /* tbody td{
   font-family: "Baloo Bhaijaan 2", sans-serif;
 } */
+
+/* Modal */
+.modal-content {
+  border: 2px solid #f28f5d;
+    border-radius: 40px;
+    background-color: rgb(16, 16, 16, 0.7);
+    height: 450px;
+}
+.modal-header {
+  border: none;
+  padding: 30px;
+}
+.modal-header .btn-close {
+  filter: invert(65%) sepia(54%) saturate(484%) hue-rotate(346deg) brightness(90%) contrast(92%);
+  opacity: 1;
+  box-shadow: none;
+}
+.modal-popup{
+  position: relative;
+}
+.modal-popup .pop-img{
+  position: absolute;
+  right: 0%;
+  bottom: 100px;
+  width: 100px;
+  cursor: pointer;
+
+}
